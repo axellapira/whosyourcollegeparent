@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    background-image: url('path/to/your/background.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000; /* Shadow to enhance text readability */
+}
+
+/* Heading Styles */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    margin: 20px auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input Styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Output Text Styling */
+#output {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Additional Styling for Images */
+img {
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Button Link Styling */
+.btn-primary {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #007BB5;
+}
