@@ -1,39 +1,47 @@
-
 /* General Styling */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f7f7f7;
     color: #333;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-/* Container to Center Content */
-body > * {
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+/* Centering the Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 400px;
-    width: 90%;
+    margin: 0 auto;
+    width: 100%;
     box-sizing: border-box;
 }
 
 /* Heading Styles */
 h1 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     color: #002147; /* Oxford Blue */
     font-size: 2em;
     margin-bottom: 20px;
     font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Form Styling */
 form {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,10 +83,16 @@ button:hover {
 
 /* Output Text Styling */
 #output {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     margin-top: 20px;
     font-size: 1.2em;
     color: #555;
     font-weight: normal;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Additional Styling for Images */
@@ -106,3 +120,4 @@ a:hover {
     color: #c0a03e; /* Slightly darker gold */
     text-decoration: underline;
 }
+
