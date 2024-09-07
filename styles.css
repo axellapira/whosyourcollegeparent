@@ -21,7 +21,7 @@ body {
 
 /* Heading Styles */
 h1 {
-    background-color: #2c281d; /* Slightly lighter dark brown */
+    background-color: #000; /* Slightly lighter dark brown */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -35,7 +35,7 @@ h1 {
 
 /* Form Styling */
 form {
-    background-color: #2c281d; /* Dark brown */
+    background-color: #000; /* Dark brown */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -85,7 +85,7 @@ button:hover {
 
 /* Output Text Styling */
 #output {
-    background-color: #2c281d; /* Dark brown */
+    background-color: #000; /* Dark brown */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -102,7 +102,7 @@ img {
     width: 100px;
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 2px solid #2c281d; /* Dark border */
+    border: 2px solid #000; /* Dark border */
     transition: transform 0.3s ease;
 }
 
