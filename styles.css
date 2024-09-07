@@ -25,7 +25,7 @@ body {
 
 /* Heading Styles */
 h1 {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -39,7 +39,7 @@ h1 {
 
 /* Form Styling */
 form {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark brown background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark brown background */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -89,7 +89,7 @@ button:hover {
 
 /* Output Text Styling */
 #output {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark brown background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark brown background */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
