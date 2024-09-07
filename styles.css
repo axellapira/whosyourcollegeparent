@@ -362,7 +362,7 @@ img {
     width: 100px;
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 2px solid #000; /* Dark border */
+    border: 2px solid #444; /* Dark border */
     transition: transform 0.3s ease;
 }
 
