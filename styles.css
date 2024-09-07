@@ -35,7 +35,7 @@ h1 {
 
 /* Form Styling */
 form {
-    background-color: #ffffff;
+    background-color: #1d1a13;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -60,13 +60,13 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: #002147; /* Focus border in Oxford Blue */
+    border-color: #1d1a13; /* Focus border in Oxford Blue */
     outline: none;
 }
 
 /* Button Styling */
 button {
-    background-color: #002147; /* Oxford Blue */
+    background-color: #4d1324; /* Oxford Blue */
     color: white;
     padding: 12px 25px;
     border: none;
@@ -77,13 +77,13 @@ button {
 }
 
 button:hover {
-    background-color: #3b5998; /* Slightly lighter blue */
+    background-color: #761d37; /* Slightly lighter blue */
     transform: scale(1.05);
 }
 
 /* Output Text Styling */
 #output {
-    background-color: #ffffff;
+    background-color: #1d1a13;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -100,7 +100,7 @@ img {
     width: 100px;
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 2px solid #002147; /* Oxford Blue */
+    border: 2px solid #1d1a13; /* Oxford Blue */
     transition: transform 0.3s ease;
 }
 
