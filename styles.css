@@ -33,7 +33,7 @@ body {
 
 /* Heading Styles */
 h1 {
-    background-color: #000; /* Dark background for the heading */
+    background-color: #444; /* Dark background for the heading */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -47,7 +47,7 @@ h1 {
 
 /* Form Styling */
 form {
-    background-color: #000; /* Dark background for the form */
+    background-color: #444; /* Dark background for the form */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -97,7 +97,7 @@ button:hover {
 
 /* Output Text Styling */
 #output {
-    background-color: #000; /* Dark background for output */
+    background-color: #444; /* Dark background for output */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -114,7 +114,7 @@ img {
     width: 100px;
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 2px solid #000; /* Dark border */
+    border: 2px solid #444; /* Dark border */
     transition: transform 0.3s ease;
 }
 
@@ -157,7 +157,7 @@ a:hover {
 
 /* Heading Styles */
 h1 {
-    background-color: #000; /* Dark background for the heading */
+    background-color: #444; /* Dark background for the heading */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -171,7 +171,7 @@ h1 {
 
 /* Form Styling */
 form {
-    background-color: #000; /* Dark background for the form */
+    background-color: #444; /* Dark background for the form */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -221,7 +221,7 @@ button:hover {
 
 /* Output Text Styling */
 #output {
-    background-color: #000; /* Dark background for output */
+    background-color: #444; /* Dark background for output */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -238,7 +238,7 @@ img {
     width: 100px;
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 2px solid #000; /* Dark border */
+    border: 2px solid #444; /* Dark border */
     transition: transform 0.3s ease;
 }
 
@@ -281,7 +281,7 @@ a:hover {
 
 /* Heading Styles */
 h1 {
-    background-color: #000; /* Dark background for the heading */
+    background-color: #444; /* Dark background for the heading */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -295,7 +295,7 @@ h1 {
 
 /* Form Styling */
 form {
-    background-color: #000; /* Dark background for the form */
+    background-color: #444; /* Dark background for the form */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -345,7 +345,7 @@ button:hover {
 
 /* Output Text Styling */
 #output {
-    background-color: #000; /* Dark background for output */
+    background-color: #444; /* Dark background for output */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
