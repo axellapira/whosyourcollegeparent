@@ -67,7 +67,7 @@ input[type="text"]:focus {
 /* Button Styling */
 button {
     background-color: #4d1324; /* Oxford Blue */
-    color: white;
+    color: #2c281d;
     padding: 12px 25px;
     border: none;
     border-radius: 25px;
