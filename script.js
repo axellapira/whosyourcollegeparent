@@ -176,6 +176,6 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
     if (nameLinks[nameInput]) {
         output.textContent = `parents: ${nameLinks[nameInput].join(', ')}`;
     } else {
-        output.textContent = 'You have no college parents linked under that name! Check the spelling or if you think there has been a mistake, dont hesistate to email Welfare at jcr-welfare@sjc.ox.ac.uk .';
+        output.textContent = 'You have no college parents linked under that name! Check the spelling or if you think there has been a mistake, dont hesistate to email Welfare at jcr-welfare@sjc.ox.ac.uk';
     }
 });
