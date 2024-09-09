@@ -105,7 +105,7 @@ const nameLinks = {
     "lia rose kishori jobanputra": ["Zanita Yuen (zanita.yuen@sjc.ox.ac.uk)", "Dylan Knight (dylan.knight@sjc.ox.ac.uk)"],
     "lia jobanputra": ["Zanita Yuen (zanita.yuen@sjc.ox.ac.uk)", "Dylan Knight (dylan.knight@sjc.ox.ac.uk)"],
     "lia kishori jobanputra": ["Zanita Yuen (zanita.yuen@sjc.ox.ac.uk)", "Dylan Knight (dylan.knight@sjc.ox.ac.uk)"],
-      "lydia ojeyemi": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
+    "lydia ojeyemi": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
     "deborah akinsanya": ["Libertad Seoane de la Fuente (libertad.seoanedelafuente@sjc.ox.ac.uk)", "Zi Ning Lau (zining.lau@sjc.ox.ac.uk)", "Cameron Setiadi (cameron.setiadi@sjc.ox.ac.uk)"],
     "maya flint": ["Libertad Seoane de la Fuente (libertad.seoanedelafuente@sjc.ox.ac.uk)", "Zi Ning Lau (zining.lau@sjc.ox.ac.uk)", "Cameron Setiadi (cameron.setiadi@sjc.ox.ac.uk)"],
     "emma king": ["Gareth Tan (Sjoh5803@ox.ac.uk)", "Henry Field (Sjoh5811@ox.ac.uk)"],
@@ -147,13 +147,13 @@ const nameLinks = {
     "charlotte rose goodchild": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
     "charlotte goodchild": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
     "catherine isla hayton": ["Xander Cooke (alexander.cooke@sjc.ox.ac.uk)", "Laurence Cooke (laurence.cooke@sjc.ox.ac.uk)"],
-    "catherine hayton": ["Xander Cooke (alexander.cooke@sjc.ox.ac.uk)", "Laurence Cooke (laurence.cooke@sjc.ox.ac.uk)"]
+    "catherine hayton": ["Xander Cooke (alexander.cooke@sjc.ox.ac.uk)", "Laurence Cooke (laurence.cooke@sjc.ox.ac.uk)"],
     "joan pau jaen mendoza": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
     "joan mendoza": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
     "joan jaen mendoza": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
     "joan pau mendoza": ["Emma Scanlon (emma.scanlon@sjc.ox.ac.uk)", "Georgina Cooper (georgina.cooper@sjc.ox.ac.uk)", "Katie Skilling (katie.skilling@sjc.ox.ac.uk)", "Emily Gurney (emily.gurney@sjc.ox.ac.uk)"],
     "arda kurtoglu": ["Xander Cooke (alexander.cooke@sjc.ox.ac.uk)", "Laurence Cooke (laurence.cooke@sjc.ox.ac.uk)"],
-   "vishal mohanty": ["Patrick Ashmore (patrick.ashmore@sjc.ox.ac.uk)", "Philip Nedelev (philip.nedelev@sjc.ox.ac.uk)", "Nikola Lakic (nikola.lakic@sjc.ox.ac.uk)"],
+    "vishal mohanty": ["Patrick Ashmore (patrick.ashmore@sjc.ox.ac.uk)", "Philip Nedelev (philip.nedelev@sjc.ox.ac.uk)", "Nikola Lakic (nikola.lakic@sjc.ox.ac.uk)"],
     "trace/zichi zhang": ["Rohan Joshi (rohan.joshi@sjc.ox.ac.uk)", "Cameron Coates (cameron.coates@sjc.ox.ac.uk)"],
     "trace zhang": ["Rohan Joshi (rohan.joshi@sjc.ox.ac.uk)", "Cameron Coates (cameron.coates@sjc.ox.ac.uk)"],
     "zichi zhang": ["Rohan Joshi (rohan.joshi@sjc.ox.ac.uk)", "Cameron Coates (cameron.coates@sjc.ox.ac.uk)"],
@@ -166,15 +166,21 @@ const nameLinks = {
     "gabriel warley": ["Joe Dunn (joe.dunn@sjc.ox.ac.uk)", "Richard Garrard (richard.garrard@sjc.ox.ac.uk)"]
 };
 
+
 document.getElementById('nameForm').addEventListener('submit', function(event) {
     event.preventDefault();
     
     const nameInput = document.getElementById('nameInput').value.trim().toLowerCase();
     const output = document.getElementById('output');
     
+    if (!nameInput) {
+        output.textContent = 'Please enter a name!';
+        return;
+    }
+    
     if (nameLinks[nameInput]) {
-        output.textContent = `parents: ${nameLinks[nameInput].join(', ')}`;
+        output.textContent = `Parents: ${nameLinks[nameInput].join(', ')}`;
     } else {
-        output.textContent = 'You have no college parents linked under that name! Check the spelling or if you think there has been a mistake, dont hesistate to email Welfare at jcr-welfare@sjc.ox.ac.uk .';
+        output.textContent = 'You have no college parents linked under that name! Check the spelling, try another spelling or if you think there has been a mistake, don’t hesitate to email Welfare at jcr-welfare@sjc.ox.ac.uk.';
     }
 });
