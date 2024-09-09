@@ -173,14 +173,9 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
     const nameInput = document.getElementById('nameInput').value.trim().toLowerCase();
     const output = document.getElementById('output');
     
-    if (!nameInput) {
-        output.textContent = 'Please enter a name!';
-        return;
-    }
-    
     if (nameLinks[nameInput]) {
-        output.textContent = `Parents: ${nameLinks[nameInput].join(', ')}`;
+        output.textContent = `parents: ${nameLinks[nameInput].join(', ')}`;
     } else {
-        output.textContent = 'You have no college parents linked under that name! Check the spelling, try another spelling or if you think there has been a mistake, don’t hesitate to email Welfare at jcr-welfare@sjc.ox.ac.uk.';
+        output.textContent = 'You have no college parents linked under that name! Check the spelling or if you think there has been a mistake, dont hesistate to email Welfare at jcr-welfare@sjc.ox.ac.uk .';
     }
 });
