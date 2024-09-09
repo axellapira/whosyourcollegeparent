@@ -1,4 +1,5 @@
 /* General Styling */
+/* General Styling (remains the same) */
 body {
     font-family: 'Papyrus', sans-serif;
     background-color: #0f0d08; /* Dark background color fallback */
@@ -11,6 +12,15 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+/* Media Query for Smartphones (600px and below) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-position: center 30%; /* Move the image lower by 20% */
+    }
+}
+
+/* Other styles (remain the same) */
 
 /* Centering the Main Container */
 .container {
