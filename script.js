@@ -1,4 +1,6 @@
 const nameLinks = {
+    "axel la pira": ["Test", "Successful"],
+    "zoe gordon": ["Hi Zoe","I hope this website will work"],
     "lauren-ava carey": ["Elliot Francolla (elliot.francolla@sjc.ox.ac.uk)", "Cameron Deol (cameron.deol@sjc.ox.ac.uk)"],
     "ava carey": ["Elliot Francolla (elliot.francolla@sjc.ox.ac.uk)", "Cameron Deol (cameron.deol@sjc.ox.ac.uk)"],
     "lauren carey": ["Elliot Francolla (elliot.francolla@sjc.ox.ac.uk)", "Cameron Deol (cameron.deol@sjc.ox.ac.uk)"],
