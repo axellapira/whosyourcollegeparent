@@ -14,7 +14,7 @@ body {
 }
 
 /* Media Query for Smartphones (600px and below) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     body {
         background-position: center 30%; /* Move the image lower by 20% */
     }
