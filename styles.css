@@ -112,7 +112,7 @@ img {
 
 .background-image {
     position: fixed; /* Or use 'fixed' if you want it to stay in the same position when scrolling */
-    top: 3;
+    top: 2;
     left: 50%; /* Start at the center horizontally */
     transform: translateX(-50%);
     width: 80%;
