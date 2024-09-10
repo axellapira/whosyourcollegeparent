@@ -105,13 +105,10 @@ img {
     width: 100px;
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 2px solid #000; /* Dark border */
     transition: transform 0.3s ease;
 }
 
-img:hover {
-    transform: scale(1.1);
-}
+
 
 .background-image {
     position: fixed; /* Or use 'fixed' if you want it to stay in the same position when scrolling */
