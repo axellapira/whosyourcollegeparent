@@ -113,9 +113,9 @@ img {
 .background-image {
     position: fixed; /* Or use 'fixed' if you want it to stay in the same position when scrolling */
     top: 3;
-    left: 2;
-    width: 70%;
-    height: 70%;
+    left: 0;
+    width: 80%;
+    height: 80%;
     object-fit: cover; /* Ensures the image covers the entire container */
     z-index: -1; /* Sends the image behind all other content */
     opacity: 1; /* Optional: Adds transparency to the image */
