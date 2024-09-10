@@ -124,7 +124,7 @@ img {
 @media (max-width: 600px) {
     .background-image {
         top: 40%; /* Push the image further down for phones */
-        left: -1;
+        left: 2;
         width: 200%;
         height: auto; /* Adjust height */
         opacity: 1; /* Make it less transparent on phones */
