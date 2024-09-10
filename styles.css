@@ -121,6 +121,17 @@ img {
     opacity: 1; /* Optional: Adds transparency to the image */
 }
 
+@media (max-width: 600px) {
+    .background-image {
+        top: 20%; /* Push the image further down for phones */
+        left: 0;
+        width: 100%;
+        height: auto; /* Adjust height */
+        opacity: 1; /* Make it less transparent on phones */
+    }
+}
+
+
 
 /* Link Styling */
 a {
