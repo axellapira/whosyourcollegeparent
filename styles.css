@@ -3,10 +3,6 @@
 body {
     font-family: 'Papyrus', sans-serif;
     background-color: #0f0d08; /* Dark background color fallback */
-    background-image: url('Untitled_Artwork (5).jpg'); /* Path to your background image */
-    background-size: cover; /* Ensures the image covers the entire page */
-    background-position: center bottom; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
     color: #e1d7c5; /* Light text color */
     margin: 0;
     padding: 20px;
@@ -118,14 +114,14 @@ img:hover {
 }
 
 .background-image {
-    position: absolute; /* Or use 'fixed' if you want it to stay in the same position when scrolling */
-    top: 0;
-    left: 0;
+    position: fixed; /* Or use 'fixed' if you want it to stay in the same position when scrolling */
+    top: 10;
+    left: 10;
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensures the image covers the entire container */
     z-index: -1; /* Sends the image behind all other content */
-    opacity: 0.5; /* Optional: Adds transparency to the image */
+    opacity: 1; /* Optional: Adds transparency to the image */
 }
 
 
