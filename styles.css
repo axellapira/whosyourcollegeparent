@@ -115,10 +115,10 @@ img:hover {
 
 .background-image {
     position: fixed; /* Or use 'fixed' if you want it to stay in the same position when scrolling */
-    top: 10;
-    left: 10;
-    width: 30%;
-    height: 30%;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
     object-fit: cover; /* Ensures the image covers the entire container */
     z-index: -1; /* Sends the image behind all other content */
     opacity: 1; /* Optional: Adds transparency to the image */
