@@ -113,7 +113,8 @@ img {
 .background-image {
     position: fixed; /* Or use 'fixed' if you want it to stay in the same position when scrolling */
     top: 3;
-    left: 0;
+    left: 50%; /* Start at the center horizontally */
+    transform: translateX(-50%);
     width: 80%;
     height: 80%;
     object-fit: cover; /* Ensures the image covers the entire container */
@@ -124,7 +125,8 @@ img {
 @media (max-width: 600px) {
     .background-image {
         top: 40%; /* Push the image further down for phones */
-        left: 2;
+        left: 50%; /* Start at the center horizontally */
+        transform: translateX(-50%);
         width: 200%;
         height: auto; /* Adjust height */
         opacity: 1; /* Make it less transparent on phones */
